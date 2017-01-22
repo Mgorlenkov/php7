@@ -1,17 +1,21 @@
 body {
-
-	background: #d1fede;
+    background: #d6f9e0;
 }
+
 .block_2 {
-     float: left; /*Задаем обтекание*/
-     line-height: 15px;/*Высота строки +  верт. центрирования текста*/
-     font-size: 12px;
-     background: lightgreen;
-     color: white;
-     margin-top: 5px;
-     width: 320px; /*Фиксируем ширину блока*/
-     min-height: 180px;
-     margin-right: 10px;
-     text-align: center; /*Центрируем текст по горизонтали*/
-     box-sizing: border-box;
-    }
+    float: left;
+    /*Задаем обтекание*/
+    line-height: 15px;
+    /*Высота строки +  верт. центрирования текста*/
+    font-size: 12px;
+    background: lightgreen;
+    color: white;
+    margin-top: 5px;
+    width: 320px;
+    /*Фиксируем ширину блока*/
+    min-height: 180px;
+    margin-right: 10px;
+    text-align: center;
+    /*Центрируем текст по горизонтали*/
+    box-sizing: border-box;
+}
