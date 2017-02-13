@@ -3,9 +3,10 @@ body {
 }
 
 .block_2 {
-    float: left;
+    display: inline-block;
     /*Задаем обтекание*/
-    line-height: 15px;
+    vertical-align: top;
+    /*line-height: 15px*/
     /*Высота строки +  верт. центрирования текста*/
     font-size: 12px;
     background: lightgreen;
@@ -18,4 +19,7 @@ body {
     text-align: center;
     /*Центрируем текст по горизонтали*/
     box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
 }
