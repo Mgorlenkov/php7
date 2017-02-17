@@ -1,7 +1,9 @@
 body {
     background: #d6f9e0;
 }
-
+a {
+  margin-left: 2px;
+}
 .block_2 {
     display: inline-block;
     /*Задаем обтекание*/
@@ -12,6 +14,7 @@ body {
     background: lightgreen;
     color: white;
     margin-top: 5px;
+    padding-right: 3px;
     width: 320px;
     /*Фиксируем ширину блока*/
     min-height: 180px;
