@@ -1,0 +1,30 @@
+[2017-02-20_00:22:49 test0] ### __construct() called!
+[2017-02-20_00:22:49 test0] Hello!
+[2017-02-20_00:22:49 test0] ### __destruct() called!
+[2017-02-20_00:22:49 test1] ### __construct() called!
+[2017-02-20_00:22:49 test1] Hello!
+[2017-02-20_00:22:49 test1] ### __destruct() called!
+[2017-02-20_00:22:49 test2] ### __construct() called!
+[2017-02-20_00:22:49 test2] Hello!
+[2017-02-20_00:22:49 test2] ### __destruct() called!
+[2017-02-20_00:22:49 test3] ### __construct() called!
+[2017-02-20_00:22:49 test3] Hello!
+[2017-02-20_00:22:49 test3] ### __destruct() called!
+[2017-02-20_00:22:49 test4] ### __construct() called!
+[2017-02-20_00:22:49 test4] Hello!
+[2017-02-20_00:22:49 test4] ### __destruct() called!
+[2017-02-20_00:22:49 test5] ### __construct() called!
+[2017-02-20_00:22:49 test5] Hello!
+[2017-02-20_00:22:49 test5] ### __destruct() called!
+[2017-02-20_00:22:49 test6] ### __construct() called!
+[2017-02-20_00:22:49 test6] Hello!
+[2017-02-20_00:22:49 test6] ### __destruct() called!
+[2017-02-20_00:22:49 test7] ### __construct() called!
+[2017-02-20_00:22:49 test7] Hello!
+[2017-02-20_00:22:49 test7] ### __destruct() called!
+[2017-02-20_00:22:49 test8] ### __construct() called!
+[2017-02-20_00:22:49 test8] Hello!
+[2017-02-20_00:22:49 test8] ### __destruct() called!
+[2017-02-20_00:22:49 test9] ### __construct() called!
+[2017-02-20_00:22:49 test9] Hello!
+[2017-02-20_00:22:49 test9] ### __destruct() called!
