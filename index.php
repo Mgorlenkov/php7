@@ -23,7 +23,7 @@ foreach ($dirlist as $dir) {
 		if(preg_match('/\.(php)/', $file)) {
 			$fstr = file($dir . '/' . $file);
 			if (preg_match('/\#{2}/', $fstr[0])) { // В первой строчке большинства файлов двумя символами решетки закомментировано название листинга, типа: "<?php ## Отладочные функции"
-				echo "<li><a href=". $dir ."/". $file .">". substr($fstr[0], 9) ."</a><a href=\"source.php\">S</a><br></li>";
+				echo "<li><a href=". $dir ."/". $file .">". substr($fstr[0], 9) ."</a><a href=\"source.php?dir=$dir&file=$file\">S</a><br></li>";
 			} else {
 				foreach ($fstr as $str) {
 					if (preg_match('|<title>(.+)</title>|isU', $str, $arr)) {
