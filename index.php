@@ -27,7 +27,7 @@ foreach ($dirlist as $dir) {
 			} else {
 				foreach ($fstr as $str) {
 					if (preg_match('|<title>(.+)</title>|isU', $str, $arr)) {
-						echo "<li><a href=". $dir ."/". $file .">". $arr[1] ."</a><br></li>";
+						echo "<li><a href=". $dir ."/". $file .">". $arr[1] ."</a><a href=\"source.php?dir=$dir&file=$file\">S</a><br></li>";
 					}
 				}
 
