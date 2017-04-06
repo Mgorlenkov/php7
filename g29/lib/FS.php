@@ -16,8 +16,8 @@
 	}
 
 	/**
-	* Класс-итератор. Является представителем для объектов FSDirectory 
-	* при переборе содержимого каталога. 
+	* Класс-итератор. Является представителем для объектов FSDirectory
+	* при переборе содержимого каталога.
 	*/
 	class FSDirectoryIterator implements Iterator
 	{
@@ -31,10 +31,10 @@
 			$this->rewind();
 		}
 
-		public function revind()
+		public function rewind()
 		{
 			rewinddir($this->d);
-			$this-cur = readdir($this->d);
+			$this->cur = readdir($this->d);
 		}
 		public function valid()
 		{
@@ -46,7 +46,7 @@
 		}
 		public function current()
 		{
-			$path = $this->owner->path."".$this->cur;
+			$path = $this->owner->path."/".$this->cur;
 			return is_dir($path) ? new FSDirectory($path) : new FSFile($path);
 		}
 		public function next()
@@ -67,4 +67,4 @@
 			return filesize($this->path);
 		}
 	}
-?>	
+?>
