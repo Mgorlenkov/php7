@@ -1,0 +1,1 @@
+[22-Feb-2017 20:00:18 Europe/Moscow] PHP Warning:  filemtime(): stat failed for spoon in C:\OpenServer\domains\php7.loc\g26\er.php on line 5
